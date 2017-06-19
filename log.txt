@@ -1,0 +1,113 @@
+   ____   _      ___   _     _____      ___   ___    _    ___    //    
+ //__   //_\\  //__   ||   //__   __  //__  //     //_\\  ||\\  // 
+ \\___ //   \\ \\__/| ||___\\____    ___//  \\___ //   \\ || \\//
+
+
+[*] EagleScan : A PE File Heuristics Scanner
+[*] Written By : @Ice3man
+[*] Email : Iceman12@protonmail.com
+
+
+[*] File Name : a.exe
+[*] Size : 230912 bytes
+[*] Architecture : 32 Bits Binary
+[*] MD5 : dec81c915664a56bd905e6856ede9fda
+[*] SHA1 : 5be2cb1af362f4b118523c5e2bd1dae387d821b6
+[*] SHA256 : 1f077a26aed38e96ec9fc617d210beaecd192090412e4fd8c00d23167a3b12d8
+[*] CRC Hash : 0x0
+[*] Timestamp : [Sun Jan 15 07:06:59 2017 UTC]
+
+[*] PEiD Signatures Check ==> ['Pelles C 2.80 -2.90 EXE (X86 CRT-LIB)']
+[*] Anit-VM ==> None
+
+
+[Section Overview]
+
+No.| Section Name |  VirtualAddress   |  VirtualSize    |  SizeOfRawData  |  Entropy 
+
+[1]|  .text       |     0x1000        |     0x2d0b      |      0x2e00     |    6  
+[2]|  .rdata      |     0x4000        |     0x988      |      0xa00     |    5  
+[3]|  .data       |     0x5000        |     0x1274      |      0xe00     |    2  
+[4]|  .rsrc       |     0x7000        |     0x33a60      |      0x33c00     |    5  
+
+
+[Imports Overview]
+
+KERNEL32.dll
+	0x4050e8 CreateFileA
+	0x4050ec GetCurrentDirectoryA
+	0x4050f0 GetPrivateProfileStringA
+	0x4050f4 GetPrivateProfileIntA
+	0x4050f8 CloseHandle
+	0x4050fc GetStartupInfoA
+	0x405100 GetModuleHandleA
+	0x405104 ExitProcess
+	0x405108 RtlUnwind
+	0x40510c HeapCreate
+	0x405110 HeapDestroy
+	0x405114 HeapAlloc
+	0x405118 HeapReAlloc
+	0x40511c HeapFree
+	0x405120 HeapSize
+	0x405124 HeapValidate
+	0x405128 GetSystemTimeAsFileTime
+	0x40512c GetFileType
+	0x405130 GetStdHandle
+	0x405134 GetCurrentProcess
+	0x405138 DuplicateHandle
+	0x40513c SetHandleCount
+	0x405140 GetCommandLineA
+	0x405144 GetModuleFileNameA
+	0x405148 GetEnvironmentStrings
+	0x40514c FreeEnvironmentStringsA
+	0x405150 OutputDebugStringA
+	0x405154 UnhandledExceptionFilter
+	0x405158 SetConsoleCtrlHandler
+	0x40515c VirtualAlloc
+	0x405160 VirtualQuery
+	0x405164 GetConsoleMode
+	0x405168 GetConsoleOutputCP
+	0x40516c WriteFile
+	0x405170 GetLastError
+	0x405174 SetFilePointer
+	0x405178 SetStdHandle
+	0x40517c MultiByteToWideChar
+	0x405180 WideCharToMultiByte
+	0x405184 DeleteFileA
+
+USER32.dll
+	0x40518c MessageBoxA
+
+
+[Exports Overview]
+
+[*] No Exports Found In File . . .
+
+
+
+[Resources Overview]
+
+No.| Resource Name | OffsetToData  |  Resource Size  |  Language
+
+[1]|  RT_ICON    |   0x7370        |   3752      |   LANG_ENGLISH
+[2]|  RT_ICON    |   0x8218        |   2216      |   LANG_ENGLISH
+[3]|  RT_ICON    |   0x8ac0        |   1736      |   LANG_ENGLISH
+[4]|  RT_ICON    |   0x9188        |   1384      |   LANG_ENGLISH
+[5]|  RT_ICON    |   0x96f0        |   38463      |   LANG_ENGLISH
+[6]|  RT_ICON    |   0x12d30        |   67624      |   LANG_ENGLISH
+[7]|  RT_ICON    |   0x23558        |   38056      |   LANG_ENGLISH
+[8]|  RT_ICON    |   0x2ca00        |   21640      |   LANG_ENGLISH
+[9]|  RT_ICON    |   0x31e88        |   16936      |   LANG_ENGLISH
+[10]|  RT_ICON    |   0x360b0        |   9640      |   LANG_ENGLISH
+[11]|  RT_ICON    |   0x38658        |   4264      |   LANG_ENGLISH
+[12]|  RT_ICON    |   0x39700        |   2440      |   LANG_ENGLISH
+[13]|  RT_ICON    |   0x3a088        |   1128      |   LANG_ENGLISH
+[14]|  RT_GROUP_ICON    |   0x3a4f0        |   188      |   LANG_ENGLISH
+[15]|  RT_VERSION    |   0x3a5ac        |   740      |   LANG_ENGLISH
+[16]|  RT_MANIFEST    |   0x3a890        |   463      |   LANG_ENGLISH
+
+[TLS Overview]
+
+[*] No TLS Callbacks Detected ...
+
+[*] Exiting EagleScan Engine ...
